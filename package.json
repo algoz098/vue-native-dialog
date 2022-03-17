@@ -16,7 +16,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs-src",
     "docs:build": "vitepress build docs-src && cp -Rf docs-src/.vitepress/dist/* docs/",
-    "docs:serve": "vitepress serve docs",
+    "docs:serve": "vitepress serve docs-src",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "lint": "eslint --ext .ts,vue --ignore-path .gitignore . --config .eslintrc.json",
