@@ -1,17 +1,24 @@
 # Vue Native Dialog
 
-## About
-
 A wrapper arround browser is `<dialog>` tag
 Read more about this new tag [here](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/dialog#browser_compatibility)
 
 ## Install
 
-TODO
+Install as: `vue-native-dialog`
+_npm_:
+`npm install vue-native-dialog`
+
+_yarn_:
+`yarn add vue-native-dialog`
 
 ## Usage
 
-TODO
+Import as:
+
+```js
+import { VNativeDialog } from "vue-native-dialog";
+```
 
 ## Props
 
