@@ -7,7 +7,7 @@ const path = require('path');
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/components/index.js'),
+      entry: path.resolve(__dirname, 'src/components/index.ts'),
       name: 'vue-native-dialog',
       fileName: (format) => `vue-native-dialog.${format}.js`,
     },
