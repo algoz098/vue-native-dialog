@@ -14,9 +14,9 @@
     }
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs-src",
-    "docs:build": "vitepress build docs-src && rm -Rf docs/* && cp -Rf docs-src/.vitepress/dist/* docs/",
-    "docs:serve": "vitepress serve docs-src",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "lint": "eslint --ext .ts,vue --ignore-path .gitignore . --config .eslintrc.json",
@@ -47,7 +47,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint-staged && npm run docs:build"
+      "pre-commit": "npm run lint-staged"
     }
   },
   "lint-staged": {
