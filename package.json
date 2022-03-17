@@ -15,7 +15,7 @@
   },
   "scripts": {
     "docs:dev": "vitepress dev docs-src",
-    "docs:build": "vitepress build docs-src && cp -Rf docs-src/.vitepress/dist/* docs/",
+    "docs:build": "vitepress build docs-src && rm -Rf docs/* && cp -Rf docs-src/.vitepress/dist/* docs/",
     "docs:serve": "vitepress serve docs-src",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
